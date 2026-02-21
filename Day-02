@@ -1,0 +1,32 @@
+// Day 3 - JavaScript Practice
+
+// 1. Variables
+let name = "Madhav";
+const college = "SRM AP";
+var age = 19;
+
+console.log("Name:", name);
+console.log("College:", college);
+console.log("Age:", age);
+
+// 2. Simple Calculation
+let tshirt = 10;
+let socks = 30;
+let pant = 100;
+
+let totalCost = tshirt + socks + pant;
+console.log("Total Cost:", totalCost);
+
+// 3. If Condition
+if (totalCost > 100) {
+    console.log("You spent more than 100");
+} else {
+    console.log("You spent less than 100");
+}
+
+// 4. Function
+function greet(user) {
+    return "Hello " + user;
+}
+
+console.log(greet("Madhav"));
